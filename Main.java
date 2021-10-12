@@ -5,14 +5,7 @@ public class Main {
         System.out.println("Hello Japan!");
         System.out.println("Hello Java!");
 
-        showArgs(args);
-    }
+        System.out.println("Test");
 
-    public static void showArgs(String[] args) {
-        System.out.println("length: " + args.length);
-        
-        for(String str : args) {
-            System.out.println(str);
-        }
     }
 }
